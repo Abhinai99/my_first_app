@@ -23,7 +23,7 @@ class MyAppState extends State<MyApp> {
       'answers': ['Blue', 'Red', 'Green', 'White']
     },
     {
-      'questionText': 'When did we first kiss?',
+      'questionText': 'When did we meet?',
       'answers': ['Sept 1', 'oct 14th', 'Oct 5th', 'Nov 14']
     },
     {
@@ -51,7 +51,7 @@ class MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('For my little baby Sani ❤'),
+          title: Text('For my experience ❤'),
         ),
         body: questionIndex < questions.length
             ? Quiz(

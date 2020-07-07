@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import './assests/photo.jpg';
-
 class Answer extends StatelessWidget {
   final Function selectHandler;
   final String answerText;
@@ -19,8 +17,6 @@ class Answer extends StatelessWidget {
         child: Text(answerText),
         onPressed: selectHandler,
       ),
-     new Image.asset(('lib/assests/photo.jpg'),
-    ),
     );
   }
 }
